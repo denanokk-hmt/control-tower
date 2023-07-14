@@ -1,0 +1,56 @@
+{
+  "cockpit" : [
+    "g3Ypb305XXoMHqf6x2KImnmAZ/wssRzEj7KQQQBQwH5qMB4kAt8fUvo3ThRSO9NUXaAB14/ECsbpopFjPSpj7ZCUmcv3v1SI"
+  ],
+  "boarding" : [
+    "g3Ypb305XXoMHqf6x2KImnmAZ/wssRzEj7KQQQBQwH5qMB4kAt8fUvo3ThRSO9NUXaAB14/ECsbpopFjPSpj7ZCUmcv3v1SI"
+  ],
+  "keel" : [
+    "g3Ypb305XXoMHqf6x2KImnmAZ/wssRzEj7KQQQBQwH5qMB4kAt8fUvo3ThRSO9NUXaAB14/ECsbpopFjPSpj7ZCUmcv3v1SI"
+  ],
+  "newest" : [
+    "g3Ypb305XXoMHqf6x2KImnmAZ/wssRzEj7KQQQBQwH5qMB4kAt8fUvo3ThRSO9NUXaAB14/ECsbpopFjPSpj7ZCUmcv3v1SI"
+  ],
+  "asker" : [
+    "g3Ypb305XXoMHqf6x2KImnmAZ/wssRzEj7KQQQBQwH5qMB4kAt8fUvo3ThRSO9NUXaAB14/ECsbpopFjPSpj7ZCUmcv3v1SI"
+  ],
+  "p1" : [
+    "g3Ypb305XXoMHqf6x2KImnmAZ/wssRzEj7KQQQBQwH5qMB4kAt8fUvo3ThRSO9NUXaAB14/ECsbpopFjPSpj7ZCUmcv3v1SI"
+  ],
+  "cabin" : [
+    "g3Ypb305XXoMHqf6x2KImnmAZ/wssRzEj7KQQQBQwH5qMB4kAt8fUvo3ThRSO9NUXaAB14/ECsbpopFjPSpj7ZCUmcv3v1SI"
+  ],
+  "cargo" : [
+    "g3Ypb305XXoMHqf6x2KImnmAZ/wssRzEj7KQQQBQwH5qMB4kAt8fUvo3ThRSO9NUXaAB14/ECsbpopFjPSpj7ZCUmcv3v1SI"
+  ],
+  "transit" : [
+    "g3Ypb305XXoMHqf6x2KImnmAZ/wssRzEj7KQQQBQwH5qMB4kAt8fUvo3ThRSO9NUXaAB14/ECsbpopFjPSpj7ZCUmcv3v1SI"
+  ],
+  "catwalk" : [
+    "g3Ypb305XXoMHqf6x2KImnmAZ/wssRzEj7KQQQBQwH5qMB4kAt8fUvo3ThRSO9NUXaAB14/ECsbpopFjPSpj7ZCUmcv3v1SI"
+  ],
+  "wish" : [
+    "g3Ypb305XXoMHqf6x2KImnmAZ/wssRzEj7KQQQBQwH5qMB4kAt8fUvo3ThRSO9NUXaAB14/ECsbpopFjPSpj7ZCUmcv3v1SI"
+  ],
+  "tugcar" : [
+    "g3Ypb305XXoMHqf6x2KImnmAZ/wssRzEj7KQQQBQwH5qMB4kAt8fUvo3ThRSO9NUXaAB14/ECsbpopFjPSpj7ZCUmcv3v1SI"
+  ],
+  "add_client" : [
+    "g3Ypb305XXoMHqf6x2KImnmAZ/wssRzEj7KQQQBQwH5qMB4kAt8fUvo3ThRSO9NUXaAB14/ECsbpopFjPSpj7ZCUmcv3v1SI"
+  ],
+  "get_configure" : [
+    "g3Ypb305XXoMHqf6x2KImnmAZ/wssRzEj7KQQQBQwH5qMB4kAt8fUvo3ThRSO9NUXaAB14/ECsbpopFjPSpj7ZCUmcv3v1SI",
+    "wDQ/aiMoXGReH/CslDLUkizQYaIvsxyejeWXFVsFxXg5Z0whUIUfXa06HEQHP4QHCasB1tzFCsPso5s0a3g2s8OUlZirvwWD",
+    "1zUqNX89X2FZEKynwWbVxy3RN60stUzDiuSUEwAGwy1rZh8kVYUaXas3QUEDboZVD6wDhoiUCcS/pp41bnlg6sHAl5/54ACG"
+  ],
+  "copy_spreadsheet" : [
+    "g3Ypb305XXoMHqf6x2KImnmAZ/wssRzEj7KQQQBQwH5qMB4kAt8fUvo3ThRSO9NUXaAB14/ECsbpopFjPSpj7ZCUmcv3v1SI"
+  ]
+  ,
+  "register_client_domain" : [
+    "g3Ypb305XXoMHqf6x2KImnmAZ/wssRzEj7KQQQBQwH5qMB4kAt8fUvo3ThRSO9NUXaAB14/ECsbpopFjPSpj7ZCUmcv3v1SI"
+  ],
+  "revert_client" : [
+    "g3Ypb305XXoMHqf6x2KImnmAZ/wssRzEj7KQQQBQwH5qMB4kAt8fUvo3ThRSO9NUXaAB14/ECsbpopFjPSpj7ZCUmcv3v1SI"
+  ]
+}

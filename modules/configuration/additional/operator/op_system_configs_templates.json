@@ -1,0 +1,98 @@
+{
+  "api_connect" : {
+    "oksky" : {
+      "boarding" : {
+        "credentials": {
+          "token_place": "headers",
+          "token_name": "x-oksky-secret-token"
+        }
+      },
+      "keel" : {
+        "api": "/rapi/v1",
+        "login_path": "/widget/login_v2",
+        "post_message_path": "/messages",
+        "get_user_path": "/users",
+        "master_keyword_path": "/master_keywords",
+        "tracker_entry_path": "/tracker_entries"
+      }
+    }
+  },
+  "env_client" : {
+    "boarding" : {
+      "signup_limitation" : {
+        "limit_by": ["dau", "mau"],
+        "rejection_msg": "現在ルームを作成することができません"  
+      },
+      "operator_system_name" : "OP_SYSTEM_NAME",
+      "operator_stop_default_msg" : {
+        "text" : "現在オペレーターには接続出来ません。",
+        "image" : "現在、画像送信は、オペレーターモードのみとなります。"
+      },
+      "operator_response_time" : {
+        "require" : false,
+        "in" : 1000,
+        "out" : 2300,
+        "denial_day" : ["日", "土"],
+        "denaial_date" : ["20200401"]
+      },
+      "command_words" : {
+        "connect": [
+          {"regexp": "^オペレータに相談$"},
+          {"string": "接続"}
+        ],
+        "disconnect": [
+          {"regexp": "^BOTに相談$"},
+          {"string": "切断"}
+        ]    
+      }
+    },
+    "keel" : {
+      "operator_system_config_credentials" : {
+        "domain": "http://hmt-conne.oksky-chat.net",
+        "tenant": "hmt-conne",
+        "op_uid": "111",
+        "admin_access_token": "78faf45124d6468cae7650ad88200f69",
+        "admin_uid": "1554",
+        "client_code": "hmt-conne-8B3D32D9CF2DDB38"
+      },
+      "operator_system_config" : {
+        "post_histories_op_qty" : 10,
+        "reconnect": {
+          "expiration_time": 180000
+        }      
+      }
+    },
+    "asker" : {},
+    "cargo" : {
+      "storage_config" : {
+        "config": {
+          "region": "ap-northeast-1",
+          "credentials": {
+            "access_key_id": "AKIAX5HQIIQGBULBZ67E",
+            "secret_access_key": "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"
+          },
+          "bucket": "prd-cargo-files",
+          "endpoint": "https://prd-cargo.hmt.svc-api.com/"
+        }
+      }
+    },
+    "transit" : {
+      "messenger_config" : {
+        "line": {
+          "secret_key": "a895fefd35f4711aebc04bbd3421d510",
+          "access_token": "O6yi3hZsC5uJlDanwyzIl4FT2pHftujfF82uK1pYVl/AJGTSNYKTwMLL+CCmDDpbNI/wxcV6hXADZfFalYUVfCNH0dnq8EyHmNqfSJB96JYimLP/soLCUnM4vwscysol/AnVfkbaeVeRqvJWSXHbvAdB04t89/1O/w1cDnyilFU=",
+          "reply_message_endpoint": "https://api.line.me/v2/bot/message/reply",
+          "push_message_endpoint": "https://api.line.me/v2/bot/message/push",
+          "get_content_endpoint": "https://api-data.line.me/v2/bot/message"
+        },
+        "facebook": {
+          "secret_key": "c4661d58ad697c889f9d03665e781417",
+          "verify_token": "EAALkA91QlD8BAK12tSZA4puHcBZCrbaUuri4PtnwMRKpwDjDd6m73b6rZBEL8HrvddxsSQvJwvxiOZBMyjDfvTNtbZCpSa3uayoZAGCjCcu0keB3T0903fGYaZBzMc8xjoLIRq5ZCfbX8zBsEMpg5nOn1Tp8Vu0lUqkGAHSpbeZBYAKOP8yuuqifdnOz3ZCVkELKQZD",
+          "send_message_endpoint": "https://graph.facebook.com/v7.0/me/messages",
+          "create_personas_endpoint": "https://graph.facebook.com/me/personas"
+        }        
+      }
+    }      
+  }
+}
+  

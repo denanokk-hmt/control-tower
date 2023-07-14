@@ -1,0 +1,29 @@
+indexes:
+
+- kind: Message-dev
+  ancestor: no
+  properties:
+  - name: "rid"
+  - name: "mtime"
+    direction: desc
+
+- kind: Message-stg
+  ancestor: no
+  properties:
+  - name: "rid"
+  - name: "mtime"
+    direction: desc
+
+- kind: Message-prd
+  ancestor: no
+  properties:
+  - name: "rid"
+  - name: "mtime"
+    direction: desc
+
+- kind: Message
+  ancestor: no
+  properties:
+  - name: "rid"
+  - name: "mtime"
+    direction: desc

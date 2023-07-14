@@ -1,0 +1,38 @@
+{
+  "name": "ControlTower",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node bin/www"
+  },
+  "dependencies": {
+    "@google-cloud/datastore": "^6.3.1",
+    "@google-cloud/storage": "^4.3.1",
+    "axios": "^0.21.0",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "csv": "^5.0.1",
+    "dateformat": "^3.0.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.18.1",
+    "express-session": "^1.15.6",
+    "file-stream-rotator": "^0.2.1",
+    "googleapis": "^43.0.0",
+    "grpc": "^1.24.3",
+    "jade": "^1.11.0",
+    "mocha": "^5.2.0",
+    "morgan": "^1.9.1",
+    "redis": "^2.8.0",
+    "request": "^2.88.0",
+    "url": "^0.11.0",
+    "yaml": "^0.3.0"
+  },
+  "repository": {},
+  "engines": {
+    "node": "14.15.x"
+  },
+  "devDependencies": {
+    "@google-cloud/nodejs-repo-tools": "^3.3.0",
+    "semistandard": "^12.0.1"
+  }
+}
